@@ -8,7 +8,7 @@ pipeline {
     parameters {
     string(defaultValue: 'Jenkinsfile', description: '', name: 'Version', trim: true)
     }
-     stages {
+    stages {
         stage("cleanws"){
             steps{
                 cleanWs()
